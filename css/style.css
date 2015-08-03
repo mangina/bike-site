@@ -1,0 +1,370 @@
+
+
+.bake__background__gradient {
+    background: -moz-linear-gradient(top, rgba(47,39,45,1) 0%, rgba(51,42,48,1) 5%, rgba(53,43,48,1) 19%, rgba(32,23,29,1) 36%, rgba(31,23,29,1) 39%, rgba(30,23,29,0.98) 42%, rgba(33,25,32,0.97) 43%, rgba(34,25,33,0.96) 44%, rgba(37,28,37,0.83) 51%, rgba(39,29,39,0.8) 54%, rgba(39,29,39,0.81) 55%, rgba(37,29,37,0.81) 56%, rgba(37,28,36,0.88) 60%, rgba(34,26,33,0.96) 65%, rgba(33,25,32,0.97) 66%, rgba(30,23,29,0.98) 67%, rgba(30,23,29,0.99) 69%, rgba(31,23,29,1) 70%, rgba(36,26,32,1) 77%, rgba(52,42,47,1) 88%, rgba(52,42,48,1) 97%, rgba(52,42,48,0.97) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(47,39,45,1)), color-stop(5%,rgba(51,42,48,1)), color-stop(19%,rgba(53,43,48,1)), color-stop(36%,rgba(32,23,29,1)), color-stop(39%,rgba(31,23,29,1)), color-stop(42%,rgba(30,23,29,0.98)), color-stop(43%,rgba(33,25,32,0.97)), color-stop(44%,rgba(34,25,33,0.96)), color-stop(51%,rgba(37,28,37,0.83)), color-stop(54%,rgba(39,29,39,0.8)), color-stop(55%,rgba(39,29,39,0.81)), color-stop(56%,rgba(37,29,37,0.81)), color-stop(60%,rgba(37,28,36,0.88)), color-stop(65%,rgba(34,26,33,0.96)), color-stop(66%,rgba(33,25,32,0.97)), color-stop(67%,rgba(30,23,29,0.98)), color-stop(69%,rgba(30,23,29,0.99)), color-stop(70%,rgba(31,23,29,1)), color-stop(77%,rgba(36,26,32,1)), color-stop(88%,rgba(52,42,47,1)), color-stop(97%,rgba(52,42,48,1)), color-stop(100%,rgba(52,42,48,0.97))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f272d', endColorstr='#f7342a30',GradientType=0 ); /* IE6-9 */
+}
+
+.wrap__inner {
+    margin: 0 auto;
+    width: 980px;
+}
+
+/*HEADER*/
+
+.header {
+    margin-top: 37px;
+}
+
+.header__background{
+    background-color: #181818;
+}
+
+.header__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    display: block;
+    padding-left: 10px;
+}
+
+.header__menu{
+    float: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 0px;
+}
+
+.header__menu__list li {
+    display: inline-block;
+}
+
+.header__menu__list a {
+    display: block;
+    color: #fff;
+    padding: 8px 23px;
+    text-decoration: none;
+}
+
+.header__menu__list a:hover {
+    background: #53d8e8;
+    border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+}
+
+.header__menu__list .header__menu__current a {
+    background: #8f746c;
+    border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+}
+
+/*TOP BANNER*/
+
+.top-banner {
+
+    width: 100%;
+}
+
+.banner__image {
+    float: left;
+}
+
+.top-banner__content {
+    height: 559px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.top-banner__image {
+    float: left;
+    width: 980px;
+    height: 559px;
+    position: relative;
+}
+
+.top-banner__caption {
+    position: absolute;
+    color: #fff;
+    font-size: 61px;
+    top: 157px;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+
+.top-banner__caption-text {
+    position: relative;
+    color: #fff;
+    font-size: 61px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.top-banner__images {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 367px;
+
+}
+
+.top-banner__image__bike__current {
+    border: 4px solid #8f746c;
+    margin: 15px;
+    position: relative;
+}
+
+.top-banner__image__bike {
+    border: 4px solid #fff;
+    margin: 15px;
+    position: relative;
+}
+
+
+
+/*CONTENT BESTSELLER*/
+
+.content__bestseller__background{
+    background-color: #fff;
+}
+
+.content__bestseller__image {
+    position: relative;
+    width: 441px;
+    height: 299px;
+    text-align: center;
+    float: left;
+    background-color: #fff;
+}
+
+.image__bake{
+    padding-top: 20px;
+}
+
+.content__bestseller__image:before{
+    content: url(../img/bestseller.png);
+    position: absolute;
+    bottom: 173px;
+    left: 0px;
+}
+
+.content__bestseller__arrow {
+
+    position: absolute;
+    top: 692px;
+    left: 864px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 14px 0;
+    border-color: transparent #e6ddda transparent transparent;
+}
+
+.content__bestseller__description {
+    float: left;
+    width: 539px;
+    background-color: #e6ddda;
+}
+
+.content__bestseller__description__sale {
+    padding: 30px 36px 17px;
+    width: 87%;
+    background: url(../img/SALE.png) top right no-repeat;
+}
+
+.content__bestseller__description__caption {
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+
+.content__bestseller__description__author {
+    font-size: 12px;
+    font-style: italic;
+    color: #987f77;
+    margin-bottom: 26px;
+}
+
+.content__bestseller__description__price {
+    font-size: 90px;
+}
+
+.content__bestseller__description__button a {
+    float: left;
+    vertical-align: middle;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #987f77;
+    border: 3px solid #987f77;
+    padding: 12px 44px;
+    margin: 4px 31px 0 0;
+}
+
+.content__bestseller__description__button a:hover{
+    background-color: #987f77;
+    color: #e6ddda;
+    cursor: pointer;
+}
+
+.content__bestseller__description__rating{
+    display: inline-flex;
+    margin-bottom: 54px;
+    padding-top: 16px;
+}
+
+.rating__text {
+    margin: 0 16px;
+    font-size: 12px;
+}
+
+.content__bestseller__description-ask {
+    font-size: 12px;
+
+}
+
+.content__bestseller__description-ask a {
+    color: #000;
+    text-decoration: none;
+}
+
+.rating__image__star {
+    margin: 0 2px;
+}
+
+/*CONTENT GALLARY*/
+
+.content__gallary__background {
+    background-color: #fff;
+}
+
+.content__gallary__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 37px 28px 56px 20px;
+}
+
+.content__gallary__info {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.content__gallary__image {
+    margin-bottom: 22px;
+}
+
+.content__gallary__caption {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.content__gallary__author {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.content__gallary__price {
+    font-size: 25px;
+    float: right;
+}
+
+.content__gallary__buttom {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #987f77;
+    width: 163px;
+    text-align: center;
+    border: 2px solid #987f77;
+    padding: 10px 3px;
+    margin: 11px 0;
+}
+
+.content__gallary__buttom:hover {
+    background-color: #987f77;
+    color: #e6ddda;
+    cursor: pointer;
+}
+
+.content__gallary__slider {
+    overflow: hidden;
+    height: 342px;
+}
+
+/*BOTTOM BANNER*/
+.bottom-banner {
+    width: 980px;
+    margin: 0 auto;
+    border-top: 2px solid #d4c9c6;
+    border-bottom: 2px solid #d4c9c6;
+}
+
+.bottom-banner__image {
+    position: relative;
+    display: flex;
+}
+
+.bottom-banner__buttom {
+
+}
+
+.bottom-banner__buttom a {
+    position: absolute;
+    top: 1450px;
+    left: 840px;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    padding: 13px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+.bottom-banner__buttom a:hover {
+    color: #987f77;
+    background-color: #fff;
+}
+
+/*BOTTOM MENU*/
+.bottom-menu__list {
+    text-align: center;
+    background-color: #fff;
+}
+
+.bottom-menu__list li {
+    display: inline-block;
+}
+
+.bottom-menu__list a  {
+    display: block;
+    text-transform: uppercase;
+    color: #000;
+    padding: 30px 17px;
+    text-decoration: none;
+}
+
+.bottom-menu__list a:hover {
+    color: #8f746c;
+}
+
+/*PAYMENTS*/
+
+.payments__icon {
+    text-align: center;
+    margin: 19px 2px 202px;
+}
+
+.payments__icon__image {
+    margin-left: 4px;
+}
+

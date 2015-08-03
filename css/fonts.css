@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Bebas-Neue;
+    src: url(../fonts/bebasneue.eot);
+    src: url(../fonts/bebasneue.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/bebasneue.svg),
+        url(../fonts/bebasneue.woff),
+        url(../fonts/bebasneue.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Doppio-One;
+    src: url(../fonts/doppioone-regular.eot);
+    src: url(../fonts/doppioone-regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/doppioone-regular.svg),
+         url(../fonts/doppioone-regular.woff),
+         url(../fonts/doppioone-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font__type__doppioone__regular {
+    font-family: Doppio-One;
+}
+
+.font__type__bebasneue__regular {
+    font-family: Bebas-Neue;
+}

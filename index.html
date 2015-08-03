@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BIKE SHOP</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <!--[if IE 8]> <link rel= "stylesheet" type="text/css" href= "css/styleIE8.css" /> <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+    <script type="text/javascript" src="js/newCurrent.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+    <script type="text/javascript" src="js/gallatySlider.js"></script>
+
+</head>
+<body class="bake__background__gradient">
+<script>
+    $(function () {
+        gallary();
+    });
+</script>
+<div class="header font__type__doppioone__regular">
+    <div class="wrap__inner header__background">
+        <div class="header__logo">
+            <a class="logo" href="#"><img src="img/logo.png" width="116" height="58" alt="bike" /></a>
+        </div>
+                <span class="header__menu">
+                    <ul class="header__menu__list">
+                        <li class="header__menu__current"><a href="#">Bikes</a></li>
+                        <li><a href="#">Best buy</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </span>
+    </div>
+</div>
+
+<div class="top-banner font__type__bebasneue__regular">
+    <div class="wrap__inner top-banner__content">
+        <div class="top-banner__image">
+            <img class="banner__image" name="image" src="img/bike-main-top-blurred.png" />
+            <!--<img class="banner__image" src="img/bike-main-top-gril.jpg" />
+            <img class="banner__image" src="img/bike-main-top-tatu.jpg" />-->
+        </div>
+        <div class="top-banner__caption">
+            <div class="top-banner__caption-text">What a beautiful bike</div>
+            <div class="top-banner__caption-text">timeless, atmospheric</div>
+            <div class="top-banner__caption-text">& uncredible bikes!</div>
+        </div>
+        <div class="top-banner__images">
+            <a href="javascript:changeFon ('img/bike-main-top-blurred.png')"><img class="top-banner__image__bike__current" src="img/bike-1-little.png" /></a>
+            <a href="javascript:changeFon ('img/bike-main-top-gril.jpg')"><img class="top-banner__image__bike" src="img/bike-2-little.png" /></a>
+            <a href="javascript:changeFon ('img/bike-main-top-tatu.jpg')"><img class="top-banner__image__bike" src="img/bike-3-little.png" /></a>
+        </div>
+    </div>
+</div>
+
+<div class="content__bestseller font__type__doppioone__regular">
+    <div class="wrap__inner content__bestseller__background">
+        <div class="content__bestseller__image">
+            <img class="image__bake" src="img/bike1.jpg" />
+        </div>
+
+        <div class="content__bestseller__description ">
+            <div class="content__bestseller__arrow"></div>
+            <div class="content__bestseller__description__sale">
+                <div class="content__bestseller__description-info">
+                    <div class="content__bestseller__description__caption">
+                        Bicycle RetroSyperb Vii #1
+                    </div>
+                    <div class="content__bestseller__description__author">
+                        by Rodriguez Else
+                    </div>
+                    <div class="content__bestseller__description__price font__type__bebasneue__regular">
+                        299.99$
+                    </div>
+                    <div class="content__bestseller__description__button">
+                        <a href="#">Add to shopping bag</a>
+                    </div>
+                    <div class="content__bestseller__description__rating">
+                        <div class="rating__text">Rating: 5.0</div>
+                        <div class="rating__image"><img class="star" src="img/rating.png" /><img class="rating__image__star" src="img/rating.png" /><img class="star" src="img/rating.png" /><img class="star" src="img/rating.png" /><img class="star" src="img/rating.png" /></div>
+                    </div>
+                    <div class="content__bestseller__description-ask">
+                        <a href="#">Ask the Customer a Question</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content__gallary font__type__doppioone__regular">
+    <div class="wrap__inner content__gallary__background content__gallary__slider" id="list">
+            <div class="content__gallary__item">
+                <div class="content__gallary__image"><img src="img/bike2.jpg" /></div>
+                <div class="content__gallary__info">
+                    <div class="content__gallary__caption">Sport Bicycle 988</div>
+                    <div class="content__gallary__author">by Enrique Salmo</div>
+                </div>
+                <div class="content__gallary__price font__type__bebasneue__regular">139.99$</div>
+                <div class="content__gallary__buttom">Add to Shopping bag</div>
+            </div>
+
+            <div class="content__gallary__item">
+                <div class="content__gallary__image"><img src="img/bike3.jpg" /></div>
+                <div class="content__gallary__info">
+                    <div class="content__gallary__caption">Classic Bicycle</div>
+                    <div class="content__gallary__author">by Ankino Frique</div>
+                </div>
+                <div class="content__gallary__price font__type__bebasneue__regular">1 219.99$</div>
+                <div class="content__gallary__buttom">Add to Shopping bag</div>
+            </div>
+
+            <div class="content__gallary__item">
+                <div class="content__gallary__image"><img src="img/bike4.jpg" /></div>
+                <div class="content__gallary__info">
+                    <div class="content__gallary__caption">Retro Bicycle #2</div>
+                    <div class="content__gallary__author">by Enrique Salmo</div>
+                </div>
+                <div class="content__gallary__price font__type__bebasneue__regular">899.99$</div>
+                <div class="content__gallary__buttom">Add to Shopping bag</div>
+            </div>
+
+            <div class="content__gallary__item" >
+                <div class="content__gallary__image"><img src="img/bike5.jpg" /></div>
+                <div class="content__gallary__info">
+                    <div class="content__gallary__caption">Classic Bicycle </div>
+                    <div class="content__gallary__author">by Marco Spielmann</div>
+                </div>
+                <div class="content__gallary__price font__type__bebasneue__regular">1 219.99$</div>
+                <div class="content__gallary__buttom">Add to Shopping bag</div>
+            </div>
+
+    </div>
+</div>
+
+<div class="bottom-banner font__type__doppioone__regular">
+    <div class="wrap__inner">
+        <div class="bottom-banner__image"><img src="img/bg-bottom.jpg" /></div>
+        <div class="bottom-banner__buttom"><a href="#" >Browse shop</a></div>
+    </div>
+</div>
+
+<div class="bottom-menu font__type__doppioone__regular">
+    <div class="wrap__inner">
+        <ul class="bottom-menu__list">
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Return policy</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">About shop</a></li>
+            <li><a href="#">Secure payment</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="payments">
+    <div class="wrap__inner">
+        <div class="payments__icon">
+            <a href="#"><img class="payments__icon__image" src="img/paypal.png" /></a><a href="#"><img  class="payments__icon__image" src="img/unionpay.png" /></a><a href=""><img  class="payments__icon__image" src="img/visa.png" /></a><a href=""><img  class="payments__icon__image" src="img/AE.png" /></a><a href=""><img  class="payments__icon__image" src="img/ya.png" /></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
