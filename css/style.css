@@ -7,7 +7,6 @@
     background: -o-linear-gradient(top, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgba(47,39,45,1) 0%,rgba(51,42,48,1) 5%,rgba(53,43,48,1) 19%,rgba(32,23,29,1) 36%,rgba(31,23,29,1) 39%,rgba(30,23,29,0.98) 42%,rgba(33,25,32,0.97) 43%,rgba(34,25,33,0.96) 44%,rgba(37,28,37,0.83) 51%,rgba(39,29,39,0.8) 54%,rgba(39,29,39,0.81) 55%,rgba(37,29,37,0.81) 56%,rgba(37,28,36,0.88) 60%,rgba(34,26,33,0.96) 65%,rgba(33,25,32,0.97) 66%,rgba(30,23,29,0.98) 67%,rgba(30,23,29,0.99) 69%,rgba(31,23,29,1) 70%,rgba(36,26,32,1) 77%,rgba(52,42,47,1) 88%,rgba(52,42,48,1) 97%,rgba(52,42,48,0.97) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f272d', endColorstr='#f7342a30',GradientType=0 ); /* IE6-9 */
 }
 
 .wrap__inner {
@@ -139,6 +138,7 @@
 
 .content__bestseller__background{
     background-color: #fff;
+    position: relative;
 }
 
 .content__bestseller__image {
@@ -164,8 +164,8 @@
 .content__bestseller__arrow {
 
     position: absolute;
-    top: 692px;
-    left: 864px;
+    top: 38px;
+    left: 429px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -225,6 +225,10 @@
     padding-top: 16px;
 }
 
+.rating__image:hover{
+    opacity: 0.7;
+}
+
 .rating__text {
     margin: 0 16px;
     font-size: 12px;
@@ -244,7 +248,34 @@
     margin: 0 2px;
 }
 
+.rating__image__star, .star:hover{
+    cursor: pointer;
+}
+
 /*CONTENT GALLARY*/
+
+.content__gallary {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.content__gallary__wrapper {
+    width: 980px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content__gallary__items {
+    width: 10000px;
+    position: relative;
+}
+
+.content__gallary__block {
+    float: left;
+    width: 239px;
+    margin: 37px 28px 56px 20px;
+}
 
 .content__gallary__background {
     background-color: #fff;
@@ -310,19 +341,22 @@
     border-bottom: 2px solid #d4c9c6;
 }
 
+.bottom-banner__content {
+    position: relative;
+}
+
 .bottom-banner__image {
     position: relative;
     display: flex;
 }
 
 .bottom-banner__buttom {
-
+    position: absolute;
+    top: 178px;
+    left: 380px;
 }
 
-.bottom-banner__buttom a {
-    position: absolute;
-    top: 1450px;
-    left: 840px;
+.bottom-banner__buttom .bottom-banner__buttom__url {
     margin: 0 auto;
     border: 3px solid #fff;
     padding: 13px 24px;
@@ -330,7 +364,7 @@
     text-decoration: none;
     font-size: 28px;
 }
-.bottom-banner__buttom a:hover {
+.bottom-banner__buttom .bottom-banner__buttom__url:hover {
     color: #987f77;
     background-color: #fff;
 }
