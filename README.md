@@ -4,7 +4,7 @@
 
 * Классы не по Бем-методологии `header__menu__list`, `top-banner__image__bike__current` https://ru.bem.info/method/naming-convention/ 
 * Ошибки в названии переменных и классов `image__bake`, `bake__background__gradient`, `changeFon`
-* Удалить старый репозиторий https://github.com/mangina/bike (не забыть про правки в ПР)
+* Удалить старый репозиторий https://github.com/mangina/bike
 * при выборе картинки - фон меняется, но выбранная картинка не подсвечивается коричневым бордером - все время подсвечена первая картинка
 * changeFon
 * changeFon - чем плоха твоя функция - каждый раз при смене src, будет заново грузиться по сети. Нажмешь 10 раз - загрузится 10 раз.
